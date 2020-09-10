@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0 5px;
+	font-family: font-family: 'Montserrat', sans-serif;
+}
+.bold{
+	font-weight: 900px;
+	
+}
+
+/* Start header section */
+header .container .title{
+	padding: 20px 0px;
+	text-align: center;
+	background-color: #1d3557;
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+/* End header section */
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px auto;
+  font-size: 20px;
+  min-width: 900px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 0px 300px;
+  display: align-content;
+}
+.content-table thead tr {
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #1D3557;
+}
+
+
+body .reg-form fieldset input{
+  padding: 7px 10px;
+}
